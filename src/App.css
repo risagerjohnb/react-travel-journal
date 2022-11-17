@@ -20,7 +20,7 @@ body {
 
 .globe {
   height: 50px;
-  padding-left: calc(50% - 50px);
+  padding-left: calc(50% - 100px);
 }
 
 .link {
@@ -38,7 +38,7 @@ body {
 }
 
 .content {
-  margin: 25px;
+  margin: 20px;
   text-align: justify;
   display: flex;
 }
@@ -81,7 +81,7 @@ body {
   letter-spacing: 0.17em;
 }
 
-@media screen and (max-width:500px) {
+@media screen and (max-width:600px) {
   .content {
     width: 100%;
   }
